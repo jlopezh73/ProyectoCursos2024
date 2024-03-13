@@ -1,0 +1,56 @@
+﻿@inherits LayoutComponentBase
+<PageTitle>AppCursosUIBlazor</PageTitle>
+
+<HeadContent>
+    <style>
+        
+        body {
+            height: 100%;
+            background: rgb(0,148,56);
+            background: linear-gradient(100deg, rgba(0,148,56,1) 0%, rgba(10,83,159,1) 40%, rgba(103,103,103,1) 40%, rgba(232,232,232,1) 41%, rgba(255,255,255,1) 100%);
+        }
+
+        .form-signin {
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            max-width: 430px;
+            padding: 1rem;
+        }
+
+        .form-signin .form-floating:focus-within {
+            z-index: 2;
+        }
+
+        .form-signin input[type="email"] {
+            margin-bottom: -1px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .form-signin input[type="password"] {
+            margin-bottom: 10px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+            
+    </style>        
+</HeadContent>
+
+  <div class="d-flex align-items-center bg-body-tertiary">      
+    <div class="container w-100">
+        <div class="row mb-2">
+            <h1 class="text-white text-center">Sistema Institucional para el Registro de Cursos de Educación Contínua</h1>  
+        </div>
+        <div class="row">
+            <img class="mb-4" src="/images/logo.png" alt=""  >
+        </div>
+    </div>
+        
+    <div class="form-signin w-100">
+    @Body
+    </div>
+    
+
+  </div>

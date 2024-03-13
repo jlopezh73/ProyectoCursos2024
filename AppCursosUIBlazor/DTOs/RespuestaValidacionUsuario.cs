@@ -1,0 +1,12 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace AppCursosUIBlazor.DTOs;
+
+public class RespuestaValidacionUsuario
+{
+    public bool correcto {get; set;}
+    public Usuario? usuario {get; set;}
+}
