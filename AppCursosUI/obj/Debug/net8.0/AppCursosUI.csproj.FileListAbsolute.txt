@@ -28,3 +28,4 @@
 /Users/jlopezh73/Projects2024/AplicacionCursos/AppCursosUI/obj/Debug/net8.0/AppCursosUI.pdb
 /Users/jlopezh73/Projects2024/AplicacionCursos/AppCursosUI/obj/Debug/net8.0/AppCursosUI.genruntimeconfig.cache
 /Users/jlopezh73/Projects2024/AplicacionCursos/AppCursosUI/obj/Debug/net8.0/ref/AppCursosUI.dll
+/Users/jlopezh73/Projects2024/AplicacionCursos/AppCursosUI/obj/Debug/net8.0/AppCursosUI.sourcelink.json

@@ -8,8 +8,9 @@ public class ManejadorIdentidadRESTProvider : IManejadorIdentidad
     public ManejadorIdentidadRESTProvider(IHttpClientFactory httpClientFactory) {
         clienteServicioIdentidad = httpClientFactory.CreateClient("ServicioIdentidad");
     }
-    public RespuestaValidacionUsuario ValidarUsuario(PeticionInicioSesion peticionInicioSesion)
-    {
+    public RespuestaValidacionUsuario 
+                    ValidarUsuario(PeticionInicioSesion peticionInicioSesion)
+    {        
         try {
             var resultado = clienteServicioIdentidad.PostAsJsonAsync<PeticionInicioSesion>("/validarUsuario", peticionInicioSesion).Result;
             resultado.EnsureSuccessStatusCode();
